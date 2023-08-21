@@ -43,6 +43,7 @@ const Skills = ({ skills, categories }) => {
           categories={categories}
           data={skill}
           key={skill.title}
+          actCat={actCat}
         />
       ));
   };
